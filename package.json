@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist",
     "build": "npm run clean && tsc -p .",
-    "start": "node dist/app.js"
+    "start": "node -r ./tsconfig-paths-bootstrap.js dist/app.js"
   },
   "author": "SasangaE",
   "license": "ISC",
