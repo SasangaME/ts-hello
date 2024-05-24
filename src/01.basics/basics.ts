@@ -1,4 +1,8 @@
 export default function demo(): void {
-    const message: string = "Hello world from a different module";
-    console.log(message);
+    console.log(greet("TypeScripts"));
 }
+
+function greet(language: string): string {
+   return `Hello world from ${language}`;
+}
+
