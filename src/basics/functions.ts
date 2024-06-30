@@ -44,3 +44,4 @@ function optionalProperties(name: {first: string, last?: string}) {
 function defaultParam(num = 5) {
     console.log(`default params: ${num}`);
 }
+
