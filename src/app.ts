@@ -1,7 +1,8 @@
-import demo from "./basics/basics";
+import demo from './basics/functions'
 
-export function main() {
+export  function main() {
     console.log("hello world");
-    demo()
+    demo();
 }
-main();
+
+
