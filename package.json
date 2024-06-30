@@ -1,12 +1,14 @@
 {
   "name": "ts-hello",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/app.ts",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon src/app.ts",
+    "dev": "nodemon --inspect src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist",
     "build": "npm run clean && tsc -p .",
+    "prod": "node dist/app.js",
     "start": "node -r ./tsconfig-paths-bootstrap.js dist/app.js"
   },
   "author": "SasangaE",
