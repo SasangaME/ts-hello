@@ -14,6 +14,8 @@ export function demo() {
     });
 
     optionalProperties({first: "Sasanga"})
+
+    defaultParam();
 }
 
 async function getRandomInt(min: number, max: number): Promise<number> {
@@ -37,4 +39,8 @@ function coordinates(pt:{ x: number; y: number }) {
 
 function optionalProperties(name: {first: string, last?: string}) {
     console.log(`${name.first} ${name.last}`);
+}
+
+function defaultParam(num = 5) {
+    console.log(`default params: ${num}`);
 }
