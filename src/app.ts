@@ -1,7 +1,7 @@
-import demo from "@basics/basics";
+import demo from "./basics/basics";
 
 export function main() {
     console.log("hello world");
-    demo();
+    demo()
 }
 main();

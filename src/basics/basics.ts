@@ -1,8 +1,8 @@
 export default function demo(): void {
-    console.log(greet("TypeScripts"));
+    console.log(greet("TypeScript"));
 }
 
 function greet(language: string): string {
-   return `Hello world from ${language}`;
+    return `Hello world from ${language}`;
 }
 
