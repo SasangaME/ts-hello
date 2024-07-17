@@ -3,11 +3,10 @@
     "require": [
       "tsconfig-paths/register"
     ],
-    "esm": true
   },
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ES2022",
+    "module": "CommonJS",
     "rootDir": "src",
     "outDir": "./dist",
     "removeComments": true,
@@ -23,12 +22,5 @@
         "basics/*"
       ]
     }
-  },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
-  ]
+  }
 }
