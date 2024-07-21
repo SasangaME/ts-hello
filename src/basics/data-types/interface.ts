@@ -12,6 +12,12 @@ export default function demo() {
 
     const cat: Pet = { name: "Olie" };
     // cat.name = "Pippa";  // this gives an error when re-assigning as this is a readonly property
+
+    const colorFulCircle: ColorfulCircle = {
+        color: "red",
+        radius: 3.5
+    }
+    console.table(colorFulCircle);
 }
 
 interface Point {
@@ -66,4 +72,16 @@ function paintShape(opts: PaintOptions) {
 
 interface Pet {
     readonly name: string;
+}
+
+interface Colorful {
+    color: string;
+}
+
+interface Circle {
+    radius: number;
+}
+
+interface ColorfulCircle extends Colorful, Circle {
+
 }
