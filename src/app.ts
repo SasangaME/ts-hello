@@ -1,8 +1,13 @@
-import demo from "./basics/data-types/interface";
+import demo from "./basics/union";
 
 export function main() {
-    console.log("hello world");
-    demo();
+    try {
+        console.log("hello world");
+        demo();
+    } catch (ex: any) {
+        console.error(ex);
+    }
+
 }
 main();
 

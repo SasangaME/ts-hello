@@ -4,6 +4,7 @@ export default function union() {
     val = 4.5;
     console.log("val: ", val);
     // val = true; // this throws an error
+    // throw new Error("im throwing an error");
 }
 
 type CustomVal = string | number;

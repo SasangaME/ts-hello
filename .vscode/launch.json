@@ -15,9 +15,9 @@
                 "-r",
                 "tsconfig-paths/register"
             ],
-            "outFiles": [
-                "${workspaceFolder}/**/*.js"
-            ]
+            // "outFiles": [
+            //     "${workspaceFolder}/**/*.js"
+            // ] // commited this to a debugging difficulties
         }
     ]
 }
