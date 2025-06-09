@@ -5,7 +5,7 @@ export default function demo() {
     printNames("Sasanga")
     printNames(["Pippa", "Olie", "Girly", "Casey", "Chucky", "Lulu", "Chuchu"])
 
-    printCoords({x: 87.3, y: 10.24});
+    printCoords({ x: 87.3, y: 10.24 });
 }
 
 function printId(id: ID) {
@@ -33,3 +33,5 @@ function printCoords(point: Point) {
 }
 
 type ID = number | string;
+
+// test commit - testing my github connection from wsl
